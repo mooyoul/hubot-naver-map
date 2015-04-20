@@ -1,0 +1,38 @@
+{
+  "name": "hubot-naver-map",
+  "version": "1.0.0",
+  "description": "A hubot script that returns a static map with link from naver place search api.",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mooyoul/hubot-naver-map.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "nhn",
+    "naver",
+    "map",
+    "maps"
+  ],
+  "author": "Moo Yeol, Lee (Prescott)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/hubot-naver-map/issues"
+  },
+  "homepage": "https://github.com/mooyoul/hubot-naver-map",
+  "dependencies": {
+    "bluebird": "^2.9.24",
+    "request": "^2.54.0",
+    "sanitize-html": "^1.6.1",
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.6"
+  },
+  "devDependencies": {
+    "hubot": "^2.11.4",
+    "hubot-mock-adapter": "^1.0.0"
+  }
+}
